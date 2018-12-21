@@ -15,8 +15,8 @@
         <module>services</module>
         <module>security</module>
         <module>rest-api</module>
-        <module>hub</module>
-        <module>cloud-platform</module>
+        <!--<module>hub</module>-->
+        <!--<module>cloud-platform</module>-->
         <!--<module>android</module>-->
         <module>devices</module>
     </modules>
@@ -182,7 +182,7 @@
                 <artifactId>shiro-core</artifactId>
                 <version>${shiro.version}</version>
             </dependency>
-            
+
             <!-- Yammer Metrics -->
             <dependency>
                 <groupId>com.codahale.metrics</groupId>
